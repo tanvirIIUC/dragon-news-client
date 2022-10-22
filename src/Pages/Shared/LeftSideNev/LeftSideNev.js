@@ -16,7 +16,7 @@ const LeftSideNev = () => {
                 {
                     categories.map(categorie => <p key={categorie.id}>
 
-                        <Link to={`/category/${categorie.id}`}>{categorie.name}{categorie.id}</Link>
+                        <Link to={`/category/${categorie.id}`}>{categorie.name}</Link>
                     </p>)
                 }
             </div>
